@@ -1,0 +1,79 @@
+ body {
+   text-align: center;
+ }
+
+ h1 {
+   padding-top: 1.5rem;
+ }
+
+ .main_menu_top {
+   background: linear-gradient(0deg, #fff, #ff4c68, red);
+   background-size: 100% 100%;
+   animation: gradient-animation 18s ease infinite;
+ }
+
+ .main_screen {
+   background: linear-gradient(0deg, #fff, #ff4c68, #ef8172);
+   background-size: 100% 100%;
+   animation: gradient-animation 18s ease infinite;
+   padding-top: 2rem;
+   padding-bottom: 25rem;
+ }
+
+ .toyota_image {
+   width: 300px;
+   margin: 20px;
+ }
+
+ .toyota_image_2{
+   width: 300px;
+   margin: 20px;
+   opacity: 50%;
+ }
+
+ .camry {
+   position: absolute;
+   top: 30%;
+   right: 50%;
+   width: 350px;
+ }
+
+ .corolla {
+   position: absolute;
+   bottom: 20%;
+   left: 50%;
+   width: 350px;
+ }
+
+ .home_buttons {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+ .account_screens_top {
+   background: linear-gradient(0deg, #fff, #ff4c68, #ef8172);
+   background-size: 100% 100%;
+   animation: gradient-animation 18s ease infinite;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+ }
+
+ .account_screens_bottom {
+   padding-left: 3rem;
+   text-align: left;
+ }
+
+ .TextBox {
+    padding: 0;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    background-color: LightGray;
+    font-size: 16px;
+    width: 80%
+}
+
+.verification_img{
+  width: 400px;
+  margin: 20px;
+}
