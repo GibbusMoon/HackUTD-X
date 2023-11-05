@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Main Menu</title>
+  <!-- Bootstrap CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-- My Own Style Sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Web Icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/89d782af7a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <img src="images/Toyota-logo-2.png" class="toyota_image_2" alt="ToyotaLogo">
+  <a href="start.html" class="btn btn-outline-danger logout">log Out</a>
+  <h1 style="padding-top:4rem; padding-left: 2rem; text-align: left;"><b>Good Morning,</b> Kiichiro Yoda!</h1>
+  <div>
+    <h2 style="position: absolute; left: 15%;">Corolla</h2>
+    <h2 style="position: absolute; top:20%; left: 10%;">23,674 Miles</h2>
+    <img src="images/bluecorolla.png" style="position: absolute;" class="main_menu_img" alt="Blue_Corolla">
+    <div style="position: absolute; top:25%; left: 5%;">
+      <i class=" fa-solid fa-triangle-exclamation"></i> Service Recommended
+    </div>
+    <a class="btn btn-danger" style="position: absolute; top: 30%; left: 15%">Schedule</a>
+  </div>
+  <div class="container" style="background-color: LightGray; margin-top: 200px;">
+    <table>
+      <tr>
+        <td>
+          <img src="images/climate.png" class="mini_imgs" alt="climate">
+        </td>
+        <td>
+          <img src="images/trip.png" class="mini_imgs" alt="trip">
+        </td>
+        <td>
+          <h2 style="font-size: 35px;">26</h2>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left: 20px; padding-right: 20px;">Climate Preferences</td>
+        <td style="padding-left: 20px; padding-right: 20px;">Trip Summary</td>
+        <td style="padding-left: 20px; padding-right: 20px;">Average MPG</td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <div class="container">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <img src="images/Stocksteeringwheel.png" style="width: 300px; height: 150px;" alt="Inside Toyota">
+    </a>
+    <h2>Cruz AI</h2>
+    <div class="collapse" id="collapse1">
+      <div class="card card-body">
+        Cruz is your intelligent co-pilot for stress-free and efficient driving; Using the real time telemetry data collected from the ECU, Cruz aims to proactively suggest alternate routes to avoid traffic, recommend similar locations you might find
+        interesting, and much more!
+        <img src="images/cruz.png" alt="Cruz">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <img src="images/bettermap.jpeg" style="width: 300px; height: 150px;" alt="GPS Map">
+    </a>
+    <h2>Cruise Comfy</h2>
+    <div class="collapse" id="collapse2">
+      <div class="card card-body">
+        By monitoring your daily routines, learning your typical routes, departure times, and preferred stops. Cruise control automatically plots the fastest routes to your favorite spots to avoid road congestion.
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <img src="images/stockseat.jpeg" style="width: 300px; height: 150px;" alt="GPS Map">
+    </a>
+    <h2>Conformity</h2>
+  </div>
+
+  <div class="collapse" id="collapse3">
+    <div class="card card-body">
+      Using the preferences set on the app, the app automatically adjusts the seat to currents drivers preferences before the car door is even opened
+    </div>
+  </div>
+</body>
+
+</html>
